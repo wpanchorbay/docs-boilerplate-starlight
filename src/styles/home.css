@@ -272,19 +272,9 @@ html[data-has-hero] body {
     padding: clamp(3rem, 8vw, 5rem) 1.5rem;
     border-top: 1px solid var(--sl-color-gray-6);
     text-align: center;
-    background: linear-gradient(
-        180deg,
-        transparent 0%,
-        color-mix(in srgb, var(--sl-color-bg-nav) 90%, transparent) 100%
-    );
 }
 
 :root[data-theme="dark"] .license-footer {
-    background: linear-gradient(
-        180deg,
-        transparent 0%,
-        color-mix(in srgb, var(--sl-color-bg-nav) 95%, #0f172a) 100%
-    );
     border-top-color: color-mix(
         in srgb,
         var(--sl-color-gray-6) 60%,
